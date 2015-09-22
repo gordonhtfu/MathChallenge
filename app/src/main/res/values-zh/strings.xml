@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">數學挑戰</string>
+    <string name="action_settings">設置</string>
+
+    <string name="activity_scoreboard">記分牌</string>
+    <string name="activity_game">遊戲</string>
+    <string name="activity_main">主單</string>
+    <string name="activity_instruction">說明</string>
+
+    <string name="name">名</string>
+    <string name="score">得分</string>
+    <string name="time">時間</string>
+    <string name="correct">正確</string>
+    <string name="total">總數</string>
+
+    <string name="easy">低級!</string>
+    <string name="intermediate">中級!</string>
+    <string name="hard">高級!</string>
+
+    <string name="easy_level">低級</string>
+    <string name="intermediate_level">中級</string>
+    <string name="hard_level">高級</string>
+
+    <string name="textViewIntro">數學挑戰</string>
+    <string name="instruction">說明</string>
+    <string name="guide">說明：選擇挑戰您想參與的水平。將有10個問題需要回答。您將基於正確答案和時間來完成挑戰所採取的數目來計分。</string>
+    <string name="scoreboard">記分牌</string>
+    <string name="your_score">你的分數: </string>
+    <string name="time_used">時間: </string>
+    <string name="submit_score">提交分數</string>
+
+    <string name="add">加</string>
+    <string name="subtract">減</string>
+    <string name="multiply">乘</string>
+    <string name="divide">除</string>
+    <string name="subtracts">減</string>
+    <string name="incorrect">不正確</string>
+    <string name="should_be">=</string>
+    <string name="back_to_home">返回首頁</string>
+</resources>

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#EFBBCC">
+
+    <TextView
+        android:id="@+id/textViewIntro"
+        android:text="@string/textViewIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonChooseEasyLevel"
+        android:text="@string/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/textViewIntro"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonChooseIntermediateLevel"
+        android:text="@string/intermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/buttonChooseEasyLevel"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonChooseHardLevel"
+        android:text="@string/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/buttonChooseIntermediateLevel"
+        android:layout_alignStart="@+id/buttonChooseEasyLevel" />
+
+    <Button
+        android:id="@+id/buttonInstruction"
+        android:text="@string/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:onClick="onClickButtonInstruction"
+        android:layout_below="@+id/buttonChooseHardLevel"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonScoreboard"
+        android:text="@string/scoreboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickButtonScoreboard"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/buttonInstruction" />
+
+</RelativeLayout>
